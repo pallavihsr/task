@@ -20,11 +20,11 @@ a {
     text-decoration: none;
 }
 
-.positive-text{
+.positive-text {
     color: var(--theme-positive);
 }
 
-.negative-text{
+.negative-text {
     color: var(--theme-negative);
 }
 
@@ -87,81 +87,81 @@ a {
 }
 
 /* Table */
-#table{
+#table {
     padding: 60px 0;
     color: #ffffff;
-   
+
 }
 
-#table p{
+#table p {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
 }
 
-.table-wrapper{
+.table-wrapper {
     overflow-x: auto;
 }
 
 
-.table-heading-text{
+.table-heading-text {
     font-size: 24px !important;
     font-weight: 500 !important;
     line-height: 36px !important;
 }
 
-table{
+table {
     width: 100%;
     margin-top: 50px;
 }
 
-th{
+th {
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
-    padding: 20px 0;
+    padding: 20px;
 }
 
-th:first-child{
+th:first-child {
     text-align: start;
 }
 
-tbody td{
+tbody td {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    padding: 20px 0; 
+    padding: 20px;
 }
 
-tbody td .name{
+tbody td .name {
     font-weight: 600;
     margin-left: 15px;
 }
 
-tbody .text-sm{
-font-size: 14px;
-font-weight: 400;
-color: #858585;
-margin-left: 15px;
+tbody .text-sm {
+    font-size: 14px;
+    font-weight: 400;
+    color: #858585;
+    margin-left: 15px;
 }
 
-.flex-column{
+.flex-column {
     display: inline-flex;
     align-items: center;
 }
 
-.text-center{
+.text-center {
     text-align: center !important;
 }
 
-.blue-btn{
+.blue-btn {
     background: linear-gradient(90deg, #3DD8EE 0%, #0997E8 100%);
     color: white;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
     margin-top: 20px;
-    border:0;
+    border: 0;
     width: 200px;
     height: 60px;
     border-radius: 8px;
@@ -169,43 +169,43 @@ margin-left: 15px;
 }
 
 /* Platform USP */
-#platform{
+#platform {
     background-color: var(--theme-deep-color);
     padding: 60px 0;
     color: white;
 }
 
-.columns-55{
+.columns-55 {
     width: 55%;
     box-sizing: border-box;
     padding: 15px;
 }
 
-.columns-45{
+.columns-45 {
     width: 45%;
     box-sizing: border-box;
     padding: 15px;
 }
 
-#platform h2{
+#platform h2 {
     font-weight: 500;
     font-size: 36px;
     line-height: 54px;
 }
 
-#platform .text{
+#platform .text {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 40px;
 }
 
-.platform-list{
+.platform-list {
     display: flex;
     margin-top: 20px;
 }
 
-.platform-list .icons{
+.platform-list .icons {
     flex: 0 0 80px;
     height: 80px;
     width: 80px;
@@ -216,13 +216,14 @@ margin-left: 15px;
     background-color: #0F1535;
     margin-right: 15px;
 }
-.platform-list .list-text p{
+
+.platform-list .list-text p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.platform-list .heading{
+.platform-list .heading {
     font-size: 18px !important;
     line-height: 27px !important;
     font-weight: 500 !important;
@@ -231,27 +232,27 @@ margin-left: 15px;
 
 /* Reasons Segment */
 
-#reasons{
+#reasons {
     color: white;
     padding: 60px 0;
 }
 
-.columns-50{
+.columns-50 {
     width: 50%;
     box-sizing: border-box;
     padding: 15px;
 }
 
-#reasons .row{
+#reasons .row {
     align-items: center;
 }
 
-#reasons .image-wrapper{
+#reasons .image-wrapper {
     position: relative;
     text-align: center !important;
 }
 
-#reasons .graph-image{
+#reasons .graph-image {
     height: 335px;
     width: 100%;
     object-fit: contain;
@@ -259,37 +260,37 @@ margin-left: 15px;
     z-index: 0;
 }
 
-#reasons .portfolio-image{
+#reasons .portfolio-image {
     z-index: 1;
     position: absolute;
     height: 532px;
     width: 100%;
     object-fit: contain;
-    top:50%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#reasons h2{
+#reasons h2 {
     font-size: 36px;
     font-weight: 600;
     line-height: 54px;
     margin-bottom: 40px;
 }
 
-.reason-points{
-display: flex;
-margin-top: 20px;
+.reason-points {
+    display: flex;
+    margin-top: 20px;
 }
 
-.reason-heading{
+.reason-heading {
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
     margin-top: 5px;
 }
 
-.reason-points .bi{
+.reason-points .bi {
     font-size: 30px;
     margin-right: 15px;
 }
@@ -402,15 +403,17 @@ footer a {
         display: none;
     }
 
-    .columns-50{
+    .columns-50 {
         width: 100%;
     }
 
-    .columns-55{
+    .columns-55 {
         width: 100%;
     }
 
-    .columns-45{
+    .columns-45 {
         width: 100%;
     }
+
+
 }
